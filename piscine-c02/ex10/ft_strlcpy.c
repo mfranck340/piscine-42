@@ -6,7 +6,7 @@
 /*   By: ffierro- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/10 15:35:55 by ffierro-          #+#    #+#             */
-/*   Updated: 2024/07/10 19:23:35 by ffierro-         ###   ########.fr       */
+/*   Updated: 2024/07/13 13:10:37 by ffierro-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,16 +22,19 @@ unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
 		dest[i] = src[i];
 		i++;
 	}
-	dest[i] = '\0';
+	if (size > 0)
+		dest[i] = '\0';
+	while (src[i] != '\0')
+		i++;
 	return (i);
 }
 
 /*
 int	main(void)
 {
-	char	a[] = "cositas";
-	char	b[7];
+	char	a[] = "cosijhjjhjhjhj";
+	char	b[8] = "hooola";
 
-	printf("%d", ft_strlcpy(b, a, 7));
+	printf("%d", ft_strlcpy(b, a, 4));
 }
 */
