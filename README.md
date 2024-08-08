@@ -13,9 +13,21 @@
     <th>Status</th>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/mfranck340/piscine-42/tree/b14e4b555e6985744c2b76021ceb010966baa633/projects/piscine-c00">Shell00</a></td>
+    <td align="center"><a href="https://github.com/mfranck340/piscine-42/tree/main/projects/shell-00">Shell00</a></td>
     <td align="center"><strong><i>100 / 100</i></strong></td>
+    <td align="center"><strong><i>Done - Presented</i></strong></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/mfranck340/piscine-42/tree/main/projects/shell-01">Shell01</a></td>
+    <td align="center"><strong><i>85 / 100</i></strong></td>
+    <td align="center"><strong><i>Done - Presented</i></strong></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/mfranck340/piscine-42/tree/main/projects/piscine-c00">C00</a></td>
+    <td align="center"><strong><i>85 / 100</i></strong></td>
+    <td align="center"><strong><i>Done - Presented</i></strong></td>
+  </tr>
+  
 </table>
 
 ## Team projects
