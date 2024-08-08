@@ -5,8 +5,10 @@
 </div>
 
 ## Stats
-Username: $$ffierro-$$
+Username: ffierro-
+
 Level: level 8 - 23%
+
 Result: Pass
 
 ---
