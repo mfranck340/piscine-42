@@ -6,7 +6,7 @@
 /*   By: ffierro- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/16 13:33:32 by ffierro-          #+#    #+#             */
-/*   Updated: 2024/07/16 19:25:08 by ffierro-         ###   ########.fr       */
+/*   Updated: 2024/08/11 21:22:33 by ffierro-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,8 @@ int	validate_base(char *base)
 	i = 0;
 	while (base[i] != '\0')
 	{
-		if (base[i] == '+' || base[i] == '-')
+		if ((base[i] == '+' || base[i] == '-')
+			|| ((base[i] >= 0 && base[i] <= 31) || base[i] == 127))
 			return (0);
 		j = 1;
 		while (base[i + j] != '\0')
