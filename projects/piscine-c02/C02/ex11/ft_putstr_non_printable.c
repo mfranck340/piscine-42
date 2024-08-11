@@ -6,13 +6,13 @@
 /*   By: ffierro- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/10 16:51:40 by ffierro-          #+#    #+#             */
-/*   Updated: 2024/07/13 13:27:05 by ffierro-         ###   ########.fr       */
+/*   Updated: 2024/08/10 22:05:05 by ffierro-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	write_hex(char car)
+void	write_hex(unsigned char car)
 {
 	char	*c;
 
@@ -32,7 +32,7 @@ void	ft_putstr_non_printable(char *str)
 		if (str[i] >= 32 && str[i] <= 126)
 			write(1, &str[i], 1);
 		else
-			write_hex(str[i]);
+			write_hex((unsigned char)str[i]);
 		i++;
 	}
 }
