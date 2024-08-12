@@ -6,7 +6,7 @@
 /*   By: ffierro- <ffierro-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/01 19:36:55 by ffierro-          #+#    #+#             */
-/*   Updated: 2024/08/10 17:25:29 by ffierro-         ###   ########.fr       */
+/*   Updated: 2024/08/12 12:41:12 by ffierro-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ void	generate_number(int ini, int n, char *number)
 	if (n == 0)
 	{
 		write(1, number, ini);
-		if (number[0] != (10 - ini) + '0') 
+		if (number[0] != (10 - ini) + '0')
 			write(1, ", ", 2);
 	}
 	else

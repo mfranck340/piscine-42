@@ -1,17 +1,14 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_atoi_base.c                                     :+:      :+:    :+:   */
+/*   ft_convert_base2.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ffierro- <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: ffierro- <ffierro-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/07/16 13:33:32 by ffierro-          #+#    #+#             */
-/*   Updated: 2024/08/12 20:46:11 by ffierro-         ###   ########.fr       */
+/*   Created: 2024/08/12 19:06:51 by ffierro-          #+#    #+#             */
+/*   Updated: 2024/08/12 19:07:08 by ffierro-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
-#include <unistd.h>
 
 int	ft_length(char *str)
 {
@@ -126,11 +123,3 @@ int	ft_atoi_base(char *str, char *base)
 	}
 	return (sign * number);
 }
-
-/*
-int	main(void)
-{
-	printf("%d", ft_atoi_base(" --+-yupi", "poniguay"));
-	return (0);
-}
-*/

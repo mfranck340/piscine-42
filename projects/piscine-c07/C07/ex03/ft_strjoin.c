@@ -1,7 +1,19 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strjoin.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ffierro- <ffierro-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/08/12 13:04:39 by ffierro-          #+#    #+#             */
+/*   Updated: 2024/08/12 13:05:52 by ffierro-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <stdio.h>
 #include <stdlib.h>
 
-int ft_strlen(char *str)
+int	ft_strlen(char *str)
 {
 	int	i;
 
@@ -46,7 +58,7 @@ char	*ft_strjoin(int size, char **strs, char *sep)
 	int		i;
 	int		j;
 	int		k;
-	
+
 	if (size == 0)
 		return (get_void());
 	str = get_memory(size, strs, sep);
@@ -67,7 +79,8 @@ char	*ft_strjoin(int size, char **strs, char *sep)
 	return (str);
 }
 
-int main()
+/*
+int	main(void)
 {
 	char *strs[] = {"cositas", "y", "mas", "cositas"};
 	char *sep = ", ";
@@ -76,3 +89,4 @@ int main()
 	free(str);
 	return 0;
 }
+*/
